@@ -4,8 +4,11 @@ def intersection(arrays):
     
     Find the common number in all the lists ???
     Possibly have a dictionary cache to input hold each number and then when it gets to end, see which number count matches the amount of lists -> menaing that number was in all the lists
+    
+    cannot use numpy or set
     """
     # Your code here
+    result = [num for num in arrays if num is arrays]
 
     return result
 
