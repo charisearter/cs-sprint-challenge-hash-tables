@@ -1,6 +1,9 @@
 def intersection(arrays):
     """
     YOUR CODE HERE
+    
+    Find the common number in all the lists ???
+    Possibly have a dictionary cache to input hold each number and then when it gets to end, see which number count matches the amount of lists -> menaing that number was in all the lists
     """
     # Your code here
 

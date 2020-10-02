@@ -8,6 +8,11 @@ class Ticket:
 def reconstruct_trip(tickets, length):
     """
     YOUR CODE HERE
+    Link the tickets
+     1st ticket => source == None  destination of 1st ticket == 2nd tickets source
+     The next tickets source == previous tickets destination
+     Final ticket destination == None
+    
     """
     # Your code here
 
