@@ -35,5 +35,5 @@ def reconstruct_trip(tickets, length):
         route[i] = next
     # make next value be current place, next place to go in cache
         next = cache[next]
-
+    print('I wanna see: ', route)
     return route
